@@ -19,8 +19,8 @@ function addCart(cart, e) {
     <tr>
       <td>
        <i class="fa fa-trash" aria-hidden="true"></i>
-        <img src=https://raymond-techy.github.io/E-commerce-Website/img/${text}>
-      <h3>${cartText}</h3> 
+        <img src=${text}>
+   <h3>${cartText}</h3> 
         </td>
       <td>
         <h3>₦${cartPrice}</h3>
