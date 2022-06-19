@@ -19,7 +19,7 @@ function addCart(cart, e) {
     <tr>
       <td>
        <i class="fa fa-trash" aria-hidden="true"></i>
-        <img src=file:///C:/Users/hp/Desktop/web%20dev%20begin/Agogo/${text}>
+        <img src=${text}>
       <h3>${cartText}</h3> 
         </td>
       <td>
