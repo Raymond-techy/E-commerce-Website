@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+    <title>cart</title>
+  </head>
+  <body>
+    <div class="cartBody">
+      <div class="carttable">
+        <div class="grid-box">
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th></th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th class="subtotalRow">Subtotal</th>
+              </tr>
+            </thead>
+            <tbody class="cartTableRow">
+              <!-- <div class="cartBtns">
+                <p class="totalCart">Proceed To CheckOut</p>
+                <button>Proceed To CheckOut</button>
+              </div> -->
+            </tbody>
+          </table>
+          <div class="total">
+            <h4>CART TOTALS</h4>
+            <ul>
+              <li>
+                <p>SubTotal:</p>
+                <span class="subTotal"></span>
+              </li>
+              <li>
+                <p>Shipping:</p>
+                <span>2500</span>
+              </li>
+              <li>
+                <p>CartTotal:</p>
+                <span class="cartTotal">2500</span>
+              </li>
+            </ul>
+            <div class="btnCheckout">
+              <button>PROCEED TO CHECKOUT</button>
+            </div>
+            <div class="coupon">
+              <form>
+                <input type="text" placeholder="Coupon code" />
+                <input type="submit" placeholder="Apply A Coupon" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
