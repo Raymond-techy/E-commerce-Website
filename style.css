@@ -262,3 +262,12 @@ hr {
 .cartTable {
   display: none;
 }
+.direct-to-cart {
+  background: #fff;
+  color: #0c2f72c0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  font-weight: 700;
+}

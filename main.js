@@ -36,6 +36,7 @@ function addCart(cart, e) {
   cartpages.innerHTML += cartItems.innerHTML;
   totalCartPrice.push(cartPrice);
   localStorage.setItem("cartItems", cartpages.innerHTML);
+  cart.innerHTML = `<button class="direct-to-cart"><a href="cart.html"  >View Cart <i class="fas fa-arrow-right"></i></a></button>`;
 }
 // const availableCart = localStorage.getItem("cartItems");
 // if (availableCart) {
